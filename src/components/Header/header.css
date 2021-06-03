@@ -1,0 +1,36 @@
+.Header {
+  background: midnightblue;
+  margin-bottom: 1 rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.logo-icone {
+  margin-left: 1rem;
+}
+
+.Menu ul {
+  display: flex;
+}
+.Menu li {
+  margin-top: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+  margin-right: 1rem;
+}
+
+.Menu li:last-child {
+  margin-top: 0rem;
+  background-color: tomato;
+  padding: 1.2rem;
+}

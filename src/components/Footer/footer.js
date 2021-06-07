@@ -1,6 +1,6 @@
 import * as React from "react"
 //import PropTypes from "prop-types"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import "../base.css"
 import "./footer.css"
@@ -50,7 +50,10 @@ const Footer = () => (
       </div>
       <div className="society">
         Tous droits réservés. 2 Bis Rue Robert Le Ricolais - 44300 NANTES
-        <p> © ENNOVSYS 2014 - {new Date().getFullYear()}</p>
+        <p> © ENNOVSYS 2014 - {new Date().getFullYear()}</p>{" "}
+        <Link to="https://www.notion.so/3cc002ea82d346bcae03c6bf055c83e0?v=e0b42fe419d34e00b26fc081136bf3ba">
+          Notion pour le developpement du site
+        </Link>
       </div>
     </div>
   </footer>

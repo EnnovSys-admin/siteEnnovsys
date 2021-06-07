@@ -1,0 +1,20 @@
+Footer {
+  background-color: lightsteelblue;
+  padding: 10px;
+}
+
+.conteneur {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: small;
+}
+
+.footer_align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.society {
+  text-align: center;
+}
